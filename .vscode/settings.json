@@ -1,9 +1,4 @@
 {
-  "editor.tabSize": 2,
-  "editor.trimAutoWhitespace": true,
-  "editor.rulers": [
-    100
-  ],
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -14,8 +9,31 @@
     "**/storybook-static": true,
     "**/yarn-*": true
   },
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "tslint.alwaysShowRuleFailuresAsWarnings": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "ecommerce",
+    "fsamplience",
+    "fsanalyticsconnect",
+    "fsbazaarvoice",
+    "fsbrandcmsproductcatalog",
+    "fsbuilder",
+    "fscart",
+    "fscheckout",
+    "fscheckoutcom",
+    "fscommercetools",
+    "fscontentful",
+    "fscontentstack",
+    "fscontinuousdeployment",
+    "fsengagement",
+    "fslocator",
+    "fsmockdatasources",
+    "fspowerreviews",
+    "fsproductdetail",
+    "fsproductindex",
+    "fsshopify",
+    "fstestproject",
+    "fsturnto",
+    "fsups"
+  ],
+  "editor.formatOnSave": true
 }
