@@ -11,8 +11,12 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
+    "acpcore",
+    "acpanalytics",
+    "algoliasearch",
     "ecommerce",
     "fsamplience",
+    "fsanalytics",
     "fsanalyticsconnect",
     "fsbazaarvoice",
     "fsbrandcmsproductcatalog",
@@ -33,7 +37,9 @@
     "fsshopify",
     "fstestproject",
     "fsturnto",
-    "fsups"
+    "fsups",
+    "swiper",
+    "textbox"
   ],
   "editor.formatOnSave": true
 }

@@ -1,1 +1,1 @@
-export * from './lib/open-source-libs-fslocator';
+export { default } from './components/LocatorContainer';

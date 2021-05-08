@@ -36,4 +36,5 @@ yarn-error.log
 Thumbs.db
 
 # Submodules
+/apps/template/
 /libs/open-source/

@@ -11,6 +11,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory:
-    '../../../../coverage/libs/open-source/libs/fsproductindex',
+  coverageDirectory: '../../../../coverage/libs/open-source/libs/fsproductindex',
 };

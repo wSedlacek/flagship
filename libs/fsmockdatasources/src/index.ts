@@ -1,1 +1,2 @@
-export * from './lib/open-source-libs-fsmockdatasources';
+export { MockDataSource as MockCommerceDataSource } from './commerce';
+export { MockDataSource as MockReviewDataSource } from './reviews';

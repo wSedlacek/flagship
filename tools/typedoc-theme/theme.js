@@ -4,11 +4,7 @@ const { DefaultTheme } = require('typedoc');
  * These packages are not documented within typedoc, so
  * we'll change the links to go to github instead.
  */
-const invalidPackages = [
-  'fsweb',
-  'fscodestyle',
-  'fstestproject'
-];
+const invalidPackages = ['fsweb', 'fscodestyle', 'fstestproject'];
 
 class CustomTheme extends DefaultTheme {
   constructor(renderer, basePath) {
@@ -21,8 +17,8 @@ class CustomTheme extends DefaultTheme {
             if (invalidPackages.includes(packageName)) {
               return `href="https://github.com/brandingbrand/flagship/tree/master/packages/${packageName}"`;
             }
-            return `href="/flagship/modules/${packageName}.html"`
-          }
+            return `href="/flagship/modules/${packageName}.html"`;
+          },
         );
       }
     });

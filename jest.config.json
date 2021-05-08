@@ -6,14 +6,7 @@
     }
   },
   "preset": "react-native",
-  "moduleFileExtensions": [
-    "ts",
-    "tsx",
-    "js",
-    "jsx",
-    "json",
-    "node"
-  ],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
   "moduleNameMapper": {
     "@brandingbrand/f(.*)": "<rootDir>/packages/f$1/src/index.ts"
   },
@@ -28,7 +21,5 @@
   },
   "transformIgnorePatterns": [],
   "testRegex": "/__tests__/.*\\.(test|spec)\\.(t|j)sx?$",
-  "setupFiles": [
-    "<rootDir>/jest/setup.js"
-  ]
+  "setupFiles": ["<rootDir>/jest/setup.js"]
 }
